@@ -24,9 +24,10 @@ export default function Header() {
 
     return (
         <header className={`${styles.header} ${isMenuOpen ? styles.menuOpen : ''}`}>
+            
             <div className={styles.inner}>
                 <Logo classVariable={styles.logo}></Logo>
-                <div className={styles.location}>{`${commonConfig.personal.city}, ${commonConfig.personal.state}`}</div>
+                {/* <div className={styles.location}>{`${commonConfig.personal.city}, ${commonConfig.personal.state}`}</div> */}
                 <div className={styles.openToWork}><span></span> Open To Work</div>
                 <Navigation isMenuOpen={isMenuOpen} setMenuOpen={setMenuOpen}></Navigation>
                 <button type={'button'} className={styles.menuToggle} onClick={toggleMenu}>
@@ -35,7 +36,7 @@ export default function Header() {
                     <span></span>
                     <span></span>
                 </button>
-            </div>
+            </div>  
         </header>
     )
 }

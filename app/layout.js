@@ -1,6 +1,7 @@
 import { Analytics } from '@vercel/analytics/react';
 import {Manrope, Libre_Baskerville} from 'next/font/google';
 import '@/assets/globals.scss';
+import '@/assets/globels.css'
 import commonConfig from '@/database/config/metadata.json';
 import LenisScroller from '@/components/UI/LenisScroller/LenisScroller';
 import Header from "@/components/Layout/Header/Header";

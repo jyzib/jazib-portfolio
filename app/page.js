@@ -5,12 +5,14 @@ import Resume from "@/components/Blocks/Resume/Resume";
 import SkillSet from "@/components/Blocks/SkillSet/SkillSet";
 import BoldTitle from "@/components/UI/Cards/BoldTitle/BoldTitle";
 import Gallery from "@/components/Blocks/Gallery/Gallery";
+import HeroScrollDemo from "@/components/Blocks/Mobile";
 
 export default function Home() {
     return (
         <>
             <Hero/>
             <SkillSet/>
+            <HeroScrollDemo/>
             <ExperienceBlock/>
             <BoldTitle/>
             <Resume/>  
