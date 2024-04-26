@@ -1,0 +1,15 @@
+@import '/assets/media-queries.scss';
+
+.section{
+  position: relative;
+  padding: var(--y-spacing) var(--x-spacing);
+  background-color: hsl(var(--color-bg-alt));
+}
+
+.header{
+  margin-bottom: var(--x-spacing);
+}
+.drop_down{
+  background-color: red;
+  transition: 0.3s;
+}

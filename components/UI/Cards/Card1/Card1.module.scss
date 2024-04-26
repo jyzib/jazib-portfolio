@@ -1,0 +1,125 @@
+@import '/assets/media-queries.scss';
+
+.card{
+  position: relative;
+  z-index: 0;
+  padding: 3rem;
+  border-radius: 2rem;
+  @include respond-below(md) {
+    padding: 0;
+  }
+  @include respond-below(sm) {
+    padding: 1.5rem;
+  }
+  &:after, .description:after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    z-index: -1;
+    border-radius: 2rem 2rem 0 0;
+    background-color: hsla(var(--color-black), 1);
+    transform: scale(0.9);
+    opacity: 0;
+    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 1px solid hsla(var(--color-white), 0.05);
+    @include respond-below(md) {
+      display: none;
+    }
+    @include respond-below(sm) {
+      display: block;
+      opacity: 0.8;
+      backdrop-filter: blur(1rem);
+      transform: scale(1);
+    }
+  }
+  &:after{
+    border-bottom: none;
+  }
+
+  .icon{
+    margin-bottom: 3rem;
+    width: 8rem;
+    height: 8rem;
+    @include respond-below(md) {
+      margin-bottom: 1.5rem;
+    }
+    @include respond-below(sm) {
+      width: 6rem;
+      height: 6rem;
+    }
+    > * {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .title{
+    font-size: var(--fs-sm);
+    color: hsla(var(--color-white), 0.8);
+    font-weight: var(--fw-medium);
+    @include respond-below(sm) {
+      font-size: var(--fs-xs);
+    }
+  }
+  .description{
+    position: absolute;
+    top: calc(100% - 3rem);
+    left: 0;
+    padding: 3rem;
+    font-size: var(--fs-xs);
+    color: hsl(var(--color-body));
+    opacity: 0;
+    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform: translateY(15%);
+    &:after{
+      border-top: none;
+      border-radius: 0 0 2rem 2rem;
+    }
+    @include respond-below(md) {
+      display: none;
+    }
+  }
+
+  &:hover{
+    &:after, .description:after {
+      transform: scale(1);
+      opacity: 1;
+    }
+    z-index: 1;
+    .description{
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .title{
+      color: hsla(var(--color-white), 1);
+    }
+    .icon{
+      animation:bounce .8s cubic-bezier(0.280, 0.840, 0.420, 1) forwards;
+    }
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, .9) translateY(0);
+  }
+  30% {
+    transform: scale(.9, 1.1) translateY(-20px);
+  }
+  50% {
+    transform: scale(1.05, .95) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-5px);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}

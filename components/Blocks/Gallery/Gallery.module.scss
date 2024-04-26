@@ -1,0 +1,98 @@
+@import '/assets/media-queries.scss';
+
+.section{
+  position: relative;
+  padding: var(--y-spacing) 0;
+  background: hsl(var(--color-bg-alt));
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @include respond-below(xs) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+}
+
+.slider{
+  padding: var(--x-spacing) 0;
+  font-size: var(--fs-sm);
+  --swiper-pagination-fraction-color: hsl(var(--color-white));
+}
+
+.sliderItem{
+  @include respond-above(xl) {
+    width: auto;
+  }
+  @include respond-below(xl) {
+    height: auto;
+  }
+}
+
+.figure{
+  position: relative;
+  overflow: hidden;
+  border-radius: 2rem;
+  @include respond-above(xl) {
+    width: fit-content;
+  }
+  @include respond-below(xl) {
+    height: 50rem;
+  }
+}
+
+.image{
+  background: hsl(var(--color-bg-alt));
+  object-fit: cover;
+  filter: contrast(1.1);
+  transform-origin: center center;
+  transform: scale(1.2);
+  pointer-events: none;
+  @include respond-above(xl) {
+    max-height: calc(100vh - (var(--x-spacing) * 2));
+  }
+  @include respond-below(xl) {
+    width: 100%;
+    height: 100%;
+  }
+
+  &.vertical{
+    @include respond-above(xl) {
+      max-width: calc(100vh - 30rem);
+    }
+  }
+  &.horizontal{
+    @include respond-above(xl) {
+      max-width: 100vw;
+    }
+  }
+}
+
+.buttonPrev, .buttonNext{
+  border: none;
+  background: none;
+  position: absolute;
+  height: 100%;
+  width: calc(var(--x-spacing) + 6.4rem);
+  top: 0;
+  z-index: 1;
+  svg{
+    transition: all .2s ease-in-out;
+  }
+  &:hover{
+    svg{
+      transform: scale(1.1);
+    }
+  }
+}
+.buttonPrev{
+  left: 0;
+  padding-left: var(--x-spacing);
+}
+.buttonNext{
+  right: 0;
+  padding-right: var(--x-spacing);
+}

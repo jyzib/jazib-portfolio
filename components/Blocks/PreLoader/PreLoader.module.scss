@@ -1,0 +1,39 @@
+.container {
+  position: fixed;
+  inset: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  width: 100dvw;
+  height: 100dvh;
+  overflow: hidden;
+  z-index: 99999998;
+  &:before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-color: hsla(var(--color-bg-alt), 1);
+    pointer-events: none;
+  }
+}
+
+.badge {
+  pointer-events: none;
+  scale: 0;
+}
+
+.progress {
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-medium);
+  letter-spacing: 0.2em;
+  color: hsla(var(--color-white), 1);
+  opacity: 0;
+
+  .old {
+    opacity: .3;
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "webkit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.0.2",
+    "@studio-freight/lenis": "^1.0.33",
+    "@uidotdev/usehooks": "^2.4.1",
+    "@vercel/analytics": "^1.1.2",
+    "axios": "^1.6.5",
+    "framer-motion": "^10.18.0",
+    "gsap": "file:gsap-bonus.tgz",
+    "next": "^14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-fast-marquee": "^1.6.2",
+    "sass": "^1.69.4",
+    "swiper": "^11.0.5",
+    "three": "^0.160.1"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "13.5.6"
+  }
+}

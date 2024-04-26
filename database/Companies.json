@@ -1,0 +1,67 @@
+[
+  {
+    "position": "Frontend Developer  / Android Developer",
+    "company": " Yatharthriti IT Services Pvt Ltd",
+    "duration": "June 2023 - Present",
+    "location": "On site",
+    "image": "/company/tentwenty.svg",
+    "url": "https://www.tentwenty.me/",
+    "responsibilities": [
+      {
+"role" : "Roles :",
+"role_summery" : "Develop user-interfaces for both mobile and web Application, Collaborate with Backend developers and UI/UX  Designer to ensure the best user experience. Optimize application performance for speed and scalability Work closely with the product manager to understand user requirements and translate them into technical solutions. Implement accessibility standards to ensure inclusivity and compliance with accessibility guidelines",
+"Responsibility" :"Responsibility :",
+"Responsibility_summery" : "Develop Reusable components using React .  Write clear and maintainable and well documented code following industry standard. Work in an agile environment, participates in sprint planning ,and deliver features on time. Communicate effectively with team members and stockholders to provide updates on progress and potential  roadblocks.Built and launched a mobile app live on both the Play Store and the App Store, showcasing deployment proficiency and mobile development expertise."
+
+      }
+    ],
+    "color": {
+      "h": "221",
+      "s": "79%",
+      "l": "51%"
+    }
+  },
+  {
+    "position": "React Developer",
+    "company": "Denge Bilgisayar",
+    "duration": "Apr 2023 - Jun 2023",
+    "location": "Remote",
+    "image": "/company/denge-bilgisayar.svg",
+    "url": "httsp://denge.com.tr/",
+    "responsibilities": [
+      {
+"role" : "Roles :",
+"role_summery" : "Contributed to web app development for Manindra Ashiyana Welfare Foundation, emphasizing donation facilitation Integrated secure payment gateway for seamless and trustworthy transactions. Implemented user-friendly query submission feature for prompt support via email.",
+"Responsibility" :"Responsibility :",
+"Responsibility_summery" : "Supported development of a web app for Manindra Ashiyana Welfare Foundation, focusing on donation facilitation Collaborated with seniors and stakeholders to gather requirements and translate them into tasks. Assisted in integrating secure payment gateway, following best practices. Contributed to designing and implementing query submission feature under senior guidance. Engaged in active participation on GitHub, contributing to codebase and version control."
+      }
+    ],
+    "color": {
+      "h": "206",
+      "s": "59%",
+      "l": "44%"
+    }
+  },
+  {
+    "position": "UI / UX Designer",
+    "company": "LONDON BERRY",
+    "duration": "Jan 2022 - Apr 2023",
+    "location": "On-site",
+    "image": "/company/agency-look.svg",
+    "url": "https://look.agency/",
+    "responsibilities": [
+      {
+"role" : "Roles :",
+"role_summery" : "Develop user-interfaces for both mobile and web Application, Collaborate with Backend developers and UI/UX  Designer to ensure the best user experience. Optimize application performance for speed and scalability Work closely with the product manager to understand user requirements and translate them into technical solutions. Implement accessibility standards to ensure inclusivity and compliance with accessibility guidelines",
+"Responsibility" :"Responsibility :",
+"Responsibility_summery" : "Develop Reusable components using React .  Write clear and maintainable and well documented code following industry standard. Work in an agile environment, participates in sprint planning ,and deliver features on time. Communicate effectively with team members and stockholders to provide updates on progress and potential  roadblocks.Built and launched a mobile app live on both the Play Store and the App Store, showcasing deployment proficiency and mobile development expertise."
+      }
+    ],
+    "color": {
+      "h": "240",
+      "s": "100%",
+      "l": "45%"
+    }
+  }
+
+]
