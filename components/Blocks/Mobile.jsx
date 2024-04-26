@@ -10,22 +10,25 @@ import Image from "next/image";
         titleComponent={
           <>
             <h1 className="text-4xl font-semibold text-black dark:text-white">
-              Unleash the power of <br />
+            Developed my first app on Both
+ <br />
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                Scroll Animations
+              Play store and App store
               </span>
             </h1>
           </>
         }
       >
+        <a href="#">
         <Image
-          src={`https://ui.aceternity.com/_next/image?url=%2Flinear.webp&w=1920&q=75`}
+          src={`/mobile.jpg`}
           alt="hero"
           height={720}
           width={1400}
           className="mx-auto rounded-2xl object-cover h-full object-left-top"
           draggable={false}
         />
+        </a>
       </ContainerScroll>
     </div>
   );

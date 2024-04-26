@@ -6,13 +6,14 @@ import SkillSet from "@/components/Blocks/SkillSet/SkillSet";
 import BoldTitle from "@/components/UI/Cards/BoldTitle/BoldTitle";
 import Gallery from "@/components/Blocks/Gallery/Gallery";
 import HeroScrollDemo from "@/components/Blocks/Mobile";
-
+import MacbookScrollDemo from "@/components/Blocks/Laptop"
 export default function Home() {
     return (
         <>
             <Hero/>
             <SkillSet/>
             <HeroScrollDemo/>
+            {/* <MacbookScrollDemo/> */}
             <ExperienceBlock/>
             <BoldTitle/>
             <Resume/>  
