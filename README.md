@@ -1,6 +1,6 @@
 Hello 👋 
 
-[(/![alt text](image.png))](https://jazib-zaidi.vercel.app/)
+[/![alt text](image.png)](https://jazib-zaidi.vercel.app/)
 
 
 

@@ -8,6 +8,8 @@
     "image": "",
     "link": "#works"
   },
+
+
   "skills": {
     "isActive": true,
     "showOnNavigation":  true,
@@ -17,6 +19,8 @@
     "image": "",
     "link": "#skills"
   },
+
+
   "experience": {
     "isActive": true,
     "showOnNavigation":  true,
@@ -26,6 +30,7 @@
     "image": "",
     "link": "#experience"
   },
+
   "resume": {
     "isActive": true,
     "showOnNavigation":  true,
@@ -54,6 +59,7 @@
     "image": "",
     "link": "/about"
   },
+  
   "blog": {
     "isActive":  false,
     "showOnNavigation":  false,
