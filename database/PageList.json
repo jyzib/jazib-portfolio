@@ -44,15 +44,7 @@
     "image": "",
     "link": "#footer"
   },
-  "instagram": {
-    "isActive":  true,
-    "showOnNavigation":  false,
-    "showOnFooter":  true,
-    "title": "Instagram",
-    "description": "Good memories, best times. My photo journal.",
-    "image": "",
-    "link": "https://www.instagram.com/yasingencnet/"
-  },
+
   "about": {
     "isActive":  false,
     "showOnNavigation": false,

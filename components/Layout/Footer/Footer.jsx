@@ -78,11 +78,11 @@ export default function Footer() {
                         Powered by&nbsp;
                         Vercel,&nbsp;
                         Next.js, and &nbsp;
-                        <Link href="https://github.com/yasingencnet/webkit">GitHub</Link>.
+                        <Link href="https://github.com/jyzib">GitHub</Link>.
                         <br/>
-                        {`${commonConfig.personal.city}, ${commonConfig.personal.state} ${currentTime}`}&nbsp;
+                        {`${commonConfig.personal.city}, ${commonConfig.personal.state}`}&nbsp;
                         •&nbsp;
-                        <WeatherAPI></WeatherAPI>
+                        {/* <WeatherAPI></WeatherAPI> */}
                     </div>
                     <div className={styles.verse}>{commonConfig.content.verse}</div>
                 </div>

@@ -35,12 +35,13 @@
     "description": "I specialize in enhancing website performance, ensuring fast loading times and efficient resource utilization for an optimal user experience."
   },
   {
-    "icon": "IconA11Y",
+    "icon": "IconTailwind",
     "image": "/icon/icon-a11y.svg",
-    "title": "A11Y",
-    "subtitle": "Web Accessibility",
-    "description": "Accessibility is a must. I ensure everyone can use what I create, focusing on keyboard navigation and screen reader compatibility."
+    "title": "Tailwind CSS",
+    "subtitle": "Responsive Web Design",
+    "description": "I specialize in crafting responsive and scalable web interfaces using Tailwind CSS. My focus is on clean design, efficient development, and mobile-first approach."
   },
+  
   {
     "icon": "IconFigma",
     "image": "/icon/icon-figma.svg",
@@ -51,10 +52,11 @@
   {
     "icon": "IconWebpack",
     "image": "/icon/icon-webpack.svg",
-    "title": "Development Env.",
-    "subtitle": "Webpack",
-    "description": "I use tools like Webpack, Vite, Parcel, or Gulp to streamline workflows, automating development for efficiency."
+    "title": "Node.js Development",
+    "subtitle": "Using Express",
+    "description": "I specialize in Node.js development with Express, leveraging its powerful features to build scalable and efficient web applications."
   },
+  
   {
     "icon": "IconAPI",
     "image": "/icon/icon-api.svg",
@@ -65,8 +67,9 @@
   {
     "icon": "IconGSAP",
     "image": "/icon/icon-gsap.svg",
-    "title": "GSAP",
-    "subtitle": "Scroll Animations",
-    "description": "I use GSAP for captivating animations that bring web pages to life, enhancing the overall user experience."
+    "title": "React Native Development",
+    "subtitle": "Cross-Platform Mobile Apps",
+    "description": "I specialize in React Native development, creating powerful cross-platform mobile applications that deliver exceptional user experiences."
   }
+  
 ]

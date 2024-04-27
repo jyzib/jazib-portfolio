@@ -96,7 +96,7 @@ export default function Resume() {
                     <div className={styles.links}>
                         <Link href={`${commonConfig.social.linkedin}`} target={'_blank'}>LinkedIn</Link>
                         <Link href={`${commonConfig.social.github}`} target={'_blank'}>GitHub</Link>
-                        <Link href={`${commonConfig.social.codepen}`} target={'_blank'}>CodePen</Link>
+                        {/* <Link href={`${commonConfig.social.codepen}`} target={'_blank'}>CodePen</Link> */}
                     </div>
                 </div>
             </Container>
