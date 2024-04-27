@@ -19,7 +19,7 @@ import Image from "next/image";
           </>
         }
       >
-        <a href="#">
+        <a href="https://play.google.com/store/apps/details?id=com.anarock.anaflix&hl=en_US">
         <Image
           src={`/mobile.jpg`}
           alt="hero"
