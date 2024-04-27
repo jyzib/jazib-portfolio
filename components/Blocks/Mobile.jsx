@@ -10,7 +10,7 @@ import Image from "next/image";
         titleComponent={
           <>
             <h1 className="text-4xl font-semibold text-black dark:text-white">
-            Developed my first app on Both
+            Deployed my first app on Both
  <br />
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
               Play store and App store
