@@ -28,7 +28,7 @@ export default function Header() {
             <div className={styles.inner}>
                 <Logo classVariable={styles.logo}></Logo>
                 {/* <div className={styles.location}>{`${commonConfig.personal.city}, ${commonConfig.personal.state}`}</div> */}
-                <div className={styles.openToWork}><span></span> Open To Work</div>
+                {/* <div className={styles.openToWork}><span></span> Open To Work</div> */}
                 <Navigation isMenuOpen={isMenuOpen} setMenuOpen={setMenuOpen}></Navigation>
                 <button type={'button'} className={styles.menuToggle} onClick={toggleMenu}>
                     <span></span>
