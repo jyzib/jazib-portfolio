@@ -8,6 +8,7 @@ import Header from "@/components/Layout/Header/Header";
 import Footer from "@/components/Layout/Footer/Footer";
 import CustomCursor from "@/components/UI/Elements/CustomCursor/CustomCursor";
 
+import Script from 'next/script'
 const bodyFont = Manrope({
     subsets: ['latin'],
     variable: '--font-primary',
@@ -42,6 +43,7 @@ export default function RootLayout({children}) {
         <CustomCursor/>
         <LenisScroller/>
         <Analytics/>
+        <Script src="https://scripts.simpleanalyticscdn.com/latest.js"  />
         {/*<div
             id="awwwards"
             style={{
